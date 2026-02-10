@@ -1,0 +1,17 @@
+name: Latest Roblox Activity
+on:
+  schedule:
+    - cron: '0 0 * * *' 
+  workflow_dispatch:   # Your "Test Button"
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write 
+    steps:
+      - uses: actions/checkout@v3
+      - name: Fetch Roblox Profile
+        uses: eclipsecool/Insta-pull-labs@v1
+        with:
+          roblox_user_id: '2819452005'
