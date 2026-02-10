@@ -1,8 +1,8 @@
 # Hi, I'm EclipseCool! 🚀
 
-<roblox start>
+<insta:start>
 
-<roblox stop>
+<insta:stop>
 
 ---
 *This profile auto-updates using my custom [Insta-pull-labs](https://github.com/eclipsecool/Insta-pull-labs) engine.*
