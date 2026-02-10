@@ -7,7 +7,7 @@ on:
     branches:
       - main
     paths-ignore:
-      - 'README.md' # 👈 THIS STOPS THE LOOP!
+      - 'README.md'
 
 jobs:
   update-readme:
@@ -19,4 +19,4 @@ jobs:
       - name: Fetch Roblox Profile
         uses: eclipsecool/Insta-pull-labs@v1
         with:
-          roblox_user_id: '1162991688'
+          roblox_user_id: '1714963905'
