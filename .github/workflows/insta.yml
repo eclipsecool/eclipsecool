@@ -1,0 +1,17 @@
+name: Latest Instagram Feed
+on:
+  schedule:
+    - cron: '0 0 * * *' # Runs daily at midnight
+  workflow_dispatch:   # Allows you to click "Run workflow" for testing
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write 
+    steps:
+      - uses: actions/checkout@v3
+      - name: Fetch Instagram Post
+        uses: eclipsecool/Insta-pull-labs@v1
+        with:
+          insta_username: 'ebbyrides' # Use 'nasa' or your test account
