@@ -1,7 +1,7 @@
 # Hi, I'm EclipseCool! 🚀
 
 <insta:start>
-
+⚠️ *Instagram Engine currently in timeout/cool-down. Will retry automatically.*
 <insta:stop>
 
 ---
